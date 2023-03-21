@@ -1,21 +1,18 @@
 [tool.poetry]
-name = "numpy-and-pandas"
+name = "clean-learning-python"
 version = "0.1.0"
 description = ""
 authors = ["Archit3ct <timothy.s.rasmussen@gmail.com>"]
 readme = "README.md"
-packages = [{include = "numpy_and_pandas"}]
+packages = [{include = "clean_learning_python"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyter = "^1.0.0"
 numpy = "^1.24.2"
 pandas = "^1.5.3"
-jupyter = "^1.0.0"
-scikit-learn = "^1.2.1"
+matplotlib = "^3.7.1"
 
-
-[tool.poetry.group.dev.dependencies]
-autopep8 = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core"]
