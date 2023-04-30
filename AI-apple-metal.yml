@@ -12,6 +12,7 @@ dependencies:
     - pandas-profiling
     - pandas-datareader
     - matplotlib
+    - seaborn
     - pillow
     - tqdm
     - requests
