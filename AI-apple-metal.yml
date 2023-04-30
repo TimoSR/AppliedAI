@@ -9,6 +9,7 @@ dependencies:
     - scikit-learn
     - scipy
     - pandas
+    - pandas-profiling
     - pandas-datareader
     - matplotlib
     - pillow
