@@ -9,6 +9,10 @@ dependencies:
     - scikit-learn
     - scipy
     - pandas
+    - bs4
+    - wordcloud
+    - textblob
+    - gensim
     - pandas-profiling
     - pandas-datareader
     - matplotlib
