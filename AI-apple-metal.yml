@@ -30,5 +30,7 @@ dependencies:
         - tensorflow_datasets
         - tensorflow-metal
         - bayesian-optimization
-        - gym
         - kaggle
+        - jupyterlab
+        - gymnasium[atari, accept-rom-license]
+        - ale-py
